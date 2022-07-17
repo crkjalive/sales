@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+h1{
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+}
+h4{
+    margin: 0;
+    text-align: left;
+    padding: 1em 0 .5em 0;
+    padding-left: 1.5em;
+}
+
+form{
+    max-width: 500px;
+    width: 100%;
+    background-color: gold;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: .5em;
+}
+
+input{
+    border: none;
+    border-radius: .5em;
+    width: 90%;
+    margin: .5em 0 0 0;
+    padding: 1em 0;
+    text-indent: 1em;
+}
+
+button{
+    width: 90%;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    margin: 1em auto;
+    background-color: dodgerblue;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: .5em 1em;
+    padding: 1em;
+
+}
+.caja{
+    display: block;
+    background-color: rgb(238, 103, 25);
+    width: 100%;
+    padding: .2em;
+}
+
+.navegador{
+    display: flex;
+    display: flexbox;
+    list-style: none;
+}
+.navegador a{
+    text-decoration: none;
+}
+.navegador li{
+    padding: .5em 1em;
+    font-size: 1.2em;
+    background-color: rgba(243, 31, 31, 1);
+}
+.navegador li:hover{
+    background-color: rgba(243, 31, 31, 0.5);
+}
